@@ -16,7 +16,7 @@ for everyone. This really helped me in understanding what was going on in the ba
 
 ## Sprint 2 
 ### Professional:
-github usage making meaningful commits communication with the team via team chat working together daily keeping everyone updated on changes or errors, continuing our weekly meetings
+github usage making meaningful commits communication with the team via team chat working together daily keeping everyone updated on changes or errors, continuing our weekly meetings, learning branching and using it well 
 
 ### Technical 
 getting the view games to work with the database a team memeber created reading the gamesController php file and learning about the CRUD (before learning about it in my web programming class) regarding the store function and what we had in the database deployment and learning how linux is case sensitive whereas windows is not styling a css
