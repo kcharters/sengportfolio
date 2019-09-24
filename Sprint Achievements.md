@@ -3,20 +3,32 @@
 ## Sprint One
 
 ### Professional:
-During sprint one our group was not the greatest at stand up meetings however we did meet at the same time every week for our two full meetings, it was difficult to organise everyone having the same free time but out communication via teams was alway constant
+During sprint one our group was not the greatest at stand up meetings however we did meet at the same time every week for our two full meetings, it was difficult to organise everyone having the same free time but out communication via teams was alway constant. 
 
 Because I was the only one to meet the client on the day we first showed them our user stories I became the main point of email contact with the client to meet with him.
 
+We also created a group [wiki page](https://github.com/SoftEnOP/op-stats-raidarea51/wiki) to look back on to remember file locations, common procedures, commands etc
+
 ### Technical:
-For sprint one I took the task to create to create the login as i thought it would be a challenge until i realised the it was a simple command and i followed the laravel docs for this.
+For sprint one I took the task to create to create the login as I thought it would be a challenge until i realised the it was a simple command `php artisan make:auth` and I followed the [laravel docs](https://laravel.com/docs/5.8/authentication) for this.
 During this sprint a team memeber made changes to the "Todo tutorial" to coiencide with our game naming conventions but didnt quite do it
 right, which ended up with the site only working for them and not the rest of the group leaving us all confused.
-So i took the initiave, and re-did the tutorial and changed it to our naming conventions and getting it working 
-for everyone. This really helped me in understanding what was going on in the back end of the site.
+So i took the initiave, and re-did the tutorial [here](https://morioh.com/p/9b8c8ef67bd5/laravel-5-8-tutorial-from-scratch-for-beginners) and changed it to our naming conventions and getting it working 
+for everyone. by using ctl+f to find all the todo variables and changing them to our gamesvariable. This really helped me in understanding what was going on in the back end of the site.
 
 ## Sprint 2 
 ### Professional:
-github usage making meaningful commits communication with the team via team chat working together daily keeping everyone updated on changes or errors, continuing our weekly meetings, learning branching and using it well 
+This sprint I learnt moreabout git usage and adding single files rather than * to add all as i had previously done in proessional practice. I also learnt about github and branching so we werent working on the master banch, making pull requests and collaboratin with my team when a merge conflict arised and making meaningful commits 
+![commits](https://i.ibb.co/5F1zj1S/meaningful-commits.jpg)
+Communication with the team via team chat working together daily keeping everyone updated on changes or errors and helping each other especially myself when i needed step by step on how to merge branches.
 
 ### Technical 
-getting the view games to work with the database a team memeber created reading the gamesController php file and learning about the CRUD (before learning about it in my web programming class) regarding the store function and what we had in the database deployment and learning how linux is case sensitive whereas windows is not styling a css
+Our group was having trouble with the games view working with the database so I took initiave again rather than leaving my team members to struggle and looked at our games controller versus the tutorial controller and when through the CRUD storefunction to make sure what was on our database matched what was with our controller (this was before i learnt about CRUD in my web programming class)
+![todos](https://i.ibb.co/V9SHJFb/todocontroller-compare-with-game-controller.jpg)
+![game controller](https://i.ibb.co/Jkhz02Z/changin-games-controller-to-work-with-database.png)
+We had some issues with deployment when one of our pages would work and this is how i learnt that linux is case sensitive, which is what our deployed site is hosted on, versus windows not begin case sensitive when we look at our site locally. 
+I also did the main styling 
+## Sprint 3
+### Professional
+-because im learning lravel in web programming i spent most of this spring helping my team with their issues and how to do thingsmore simplier
+### Technical
