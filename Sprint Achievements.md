@@ -30,5 +30,8 @@ We had some issues with deployment when one of our pages would work and this is 
 I also did the main styling 
 ## Sprint 3
 ### Professional
--because im learning lravel in web programming i spent most of this spring helping my team with their issues and how to do thingsmore simplier
+Learning Laravel side by side with software engineering class and web 2 programming helped me help my team. One team member was having trouble with creating a search function and was using a tutorial that required downloaded packages, which we figured out meant we would all have to download the same packages and also download them on the deployment site to get working. So I made a quick search function with an easier tutorial, that i had origially suggested to the team, and with my knowledge of forms from my web class helped the other memember create a simplier, working search function for the site.
+
 ### Technical
+Also from learning about eloquent in my web class i changed the view scores to be our actual leaderboard and sorted it by score using eloquent, eloquent is like make select quiries in sql but with different syntax. Orginally I thought i would have to join tables but seeing as our add scores is basically data entry i managed to sort it and i implemented this in the top ten splash screen on the home page. 
+Most of my technical achievements this sprint was helping the other memebers in my team.
