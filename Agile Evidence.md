@@ -18,7 +18,7 @@ Instead of having to manually code everything it was done with a simple line. Th
 
 ## Sprint 2
 This sprint i learnt about branching, which was a new concept for me. We made a developer branch off our main master branch (the main master branch is where the code for the deployed site is). then from this developer branch we created our own seperate branches titled for what we working on and would be merged back to the developer branch when completed. This also helped me visually understand merge conflics as opposed to dealing with merge conflicts on a command line. 
-![branching](https://ibb.co/ZY4Xr4C)
+![branching](https://i.ibb.co/VQn9Gn8/branching.jpg)
   
 ### Delivering working software frequently 
   
