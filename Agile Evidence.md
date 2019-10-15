@@ -17,11 +17,16 @@ Instead of having to manually code everything it was done with a simple line. Th
 
 
 ## Sprint 2
-<insert picture of working on deployment >
-branching 
+This sprint i learnt about branching, which was a new concept for me. We made a developer branch off our main master branch (the main master branch is where the code for the deployed site is). then from this developer branch we created our own seperate branches titled for what we working on and would be merged back to the developer branch when completed. This also helped me visually understand merge conflics as opposed to dealing with merge conflicts on a command line. 
+![branching](https://ibb.co/ZY4Xr4C)
+  
 ### Delivering working software frequently 
-Deploying our site to the server and being able to show the client when our sprint was finished. Also showing the client on not just a computer or laptop but on a phone as well to present responiveness and functionailty 
+  
+Deploying our site to the server and being able to show the client when our sprint was finished. Also showing the client on not just a computer or laptop but on a phone as well to present responiveness and functionailty. Deployment also ment the client had easier access to the application instead of showing locally during meetings. 
 
 ## Sprint 3
 ### At regular intervals, the team reflects on how to become more effective
-In the beginning our team was not the best at scrums especially after we lost a team member and were only a three person we would generally just get together and work on the project but using sprint management we could easily delegate issues and discuss who could do what within the timeframe (using a point system on our issues).
+In the beginning our team was not the best at scrums especially after we lost a team member and were only a three person we would generally just get together and work on the project but using sprint management we could easily delegate issues and discuss who could do what within the timeframe (using a point system on our issues). Discussing how we can make our site more suitable for the visually impared which ment cleaning up code.
+
+## Sprint 4
+### Continuous attention to technical excellence and good design enhances agility.
