@@ -1,9 +1,11 @@
 # Personal Reflection
 
 ## Sprint 1
-### What behaviour will i change next sprint:
-Not doubting my ability, originally i felt overwhelemd at the idea of this project but ive found my strengths from this.<br>
+
+### What did i do well:
+I became the main contact with our client and regularily set up meetings and keeping the team informed of these meetings. Standup scrum meetings and also team meetings once a week when we had technical problems. Using our team wiki when forgetting how to do certain things and also adding my own knowledge to it. [wiki](https://github.com/SoftEnOP/op-stats-raidarea51/wiki)
 ### What mistakes did i make: 
+Not doubting my ability, originally i felt overwhelemd at the idea of this project but ive found my strengths from this.<br>
 Relying on a team leader, even in the workforce, I have become used to not being a leader and letting people tell me what i need to do and just doing it. 
 ### Barriers: 
 My team members left me by myself a couple of times, which i didnt really know what to do in the beginning but during the sprint however i learnt to how to be a bit more assertive and find my role.
@@ -13,10 +15,11 @@ Im very passive but I learned how to be a bit more assertive in a group dynamic 
 I also learnt about frameworks and how web design in industry is done which has compeled me to try other frameworks such as ASP.net and Django in the summer break as this is something i would like to do when i complete the degree 
 <br>
 ## Sprint 2
-### What behaviour will i change next sprint: 
-With only having three members due to losing one memeber and another having family commitments I became quite resentful towards my team and need to be more understanding that somethings cant be controlled
+### What did i do well: 
+I used my previous knowledge to implement styling , fixed some issues that other members were having especially with our naming conventions and getting our controller functions to work with the database, which helped me understand the back end of what was going on with the site.
 
 ### What mistakes did i make:
+With only having three members due to losing one memeber and another having family commitments I became quite resentful towards my team and need to be more understanding that somethings cant be controlled
 Trying to take on others work as well as my own made me prioritise the project over other things I had to do which wasnt a good idea in the long run considering the workload i myself have this also relates to the agile principle "Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely." 
 ### Barriers:
 some team members not contributing as much the others and adding and changing of issues with the client, im lucky i can adapt to change even it makes me uncomfortable and anxious this is a personailty trait of my own that i have had to 
@@ -27,10 +30,11 @@ The dynamics of team work and working around it. Being less resentful of group w
 and ive learnt to accept and adapt to it 
 <br>
 ## Sprint 3
-### What behaviour will i change next sprint:<br>
+### What did i do well:<br>
+While whaat i did was not as technically challegning as before i used my knowledge from my web programming class to help my other members with what they were working on to complete the spring. 
+### What mistakes did i make:<br>
 Learning what and how to be more agile and that it relates to more than just use a kanban board to deligate work with team members. 
 <br>
-### What mistakes did i make:<br>
 My knowledge in eloquent wasnt what i thought it was which cause some mistakes in the code i wrote and needed to be changed. I realised i didnt fully understand what it means to be agile and suggested that we look through our code to make it more accessible to others especially the visually impared. 
 <br>
 ### Barriers:<br>
