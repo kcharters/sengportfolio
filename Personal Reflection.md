@@ -28,11 +28,13 @@ and ive learnt to accept and adapt to it
 <br>
 ## Sprint 3
 ### What behaviour will i change next sprint:<br>
+Learning what and how to be more agile and that it relates to more than just use a kanban board to deligate work with team members
 <br>
 ### What mistakes did i make:<br>
+My knowledge in eloquent wasnt what i thought it was which cause some mistakes in the code i wrote and needed to be changed 
 <br>
 ### Barriers:<br>
 <br>
 ### Lessons learned <br>
-using my knowledge from web programming to help my team 
+I learned that i am what could be coined as an 'accidental leader'. With my knowledge of laravel gained from my web programming class i spent most of the sprint show my team how to do things a simplier way than what they found on the internet. Im no normally a leader and am pretty passive. This taught me how to communicate my own knowledge in a way to teach another person. 
 <br>
