@@ -20,7 +20,8 @@ Instead of having to manually code everything it was done with a simple line. Th
 ## Sprint 2
 This sprint i learnt about branching, which was a new concept for me. We made a developer branch off our main master branch (the main master branch is where the code for the deployed site is). then from this developer branch we created our own seperate branches titled for what we working on and would be merged back to the developer branch when completed. This also helped me visually understand merge conflics as opposed to dealing with merge conflicts on a command line. <br>
 ![branching](https://i.ibb.co/VQn9Gn8/branching.jpg)
-  
+![opening pull request](https://i.ibb.co/gPpzmjM/open-pull-request.jpg)
+![waiting for merge](https://i.ibb.co/f2HFL1j/open-pull-request-waiting-for-merge.jpg)
 ### Delivering working software frequently 
   
 Deploying our site to the server and being able to show the client when our sprint was finished. Also showing the client on not just a computer or laptop but on a phone as well to present responiveness and functionailty. Deployment also ment the client had easier access to the application instead of showing locally during meetings. 
