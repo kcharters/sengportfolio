@@ -34,3 +34,5 @@ In the beginning our team was not the best at scrums especially after we lost a 
 
 ## Sprint 4
 ### Continuous attention to technical excellence and good design enhances agility.
+- with team i noticed we had no crud, questions i proposed were what if a user makes a mistake, the mistake is stuck there 
+- suggested i implement as i didnt do anything technically challenging last sprint 
