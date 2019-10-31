@@ -1,8 +1,6 @@
-# soften-portfolio-19-2-kcharters89
-soften-portfolio-19-2-kcharters89 created by GitHub Classroom
 
-[Sprint Achievements](https://github.com/SoftEnOP/soften-portfolio-19-2-kcharters89/blob/master/Sprint%20Achievements.md)
+[Sprint Achievements](Achievements.html)
 
-[Agile Evedence](https://github.com/SoftEnOP/soften-portfolio-19-2-kcharters89/blob/master/Agile%20Evidence.md)
+[Agile Evedence](Agile-Evidence.html)
 
-[Personal reflection](https://github.com/SoftEnOP/soften-portfolio-19-2-kcharters89/blob/master/Personal%20Reflection.md)
+[Personal reflection](Personal-Reflection.html)
