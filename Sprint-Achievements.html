@@ -75,9 +75,10 @@ for everyone. by using ctl+f to find all the todo variables and changing them to
 
 <h2> Sprint 2 </h2>
 <h3> Professional:</h3>
-This sprint I learnt moreabout git usage and adding single files rather than * to add all as i had previously done in proessional practice.
+This sprint I learnt moreabout git usage and adding single files rather than * to add all as i had previously done in Professional practice.
  I also learnt about github and branching so we werent working on the master banch, making pull requests and collaboratin with my team when
   a merge conflict arised and making meaningful commits <br>
+  <img src="https://i.ibb.co/VQn9Gn8/branching.jpg" alt="branching" border="0"><br>
   <img src="https://i.ibb.co/5F1zj1S/meaningful-commits.jpg" alt="meaningful-commits" border="0"><br>
 Communication with the team via team chat working together daily keeping everyone updated on changes or errors and helping each other 
 especially myself when i needed step by step on how to merge branches.
@@ -104,8 +105,29 @@ which we figured out meant we would all have to download the same packages and a
 Also from learning about eloquent in my web class i changed the view scores to be our actual leaderboard and sorted it
  by score using eloquent, eloquent is similar to making select quiries in sql but with different syntax. 
  Orginally I thought i would have to join tables but seeing as our add scores is basically data entry i managed to sort 
- it and i implemented this in the top ten splash screen on the home page. 
+ it and i implemented this in the top ten splash screen on the home page. I had some confusion with this as 
+ it didnt seem to be sorting by the higest number until i realised our databse was set score to string and so it 
+ was sorting alphbetically. I managed to change our table to integer to get the sort numerically using this <a href="https://laravel.com/docs/5.7/migrations#updating-columns">doc</a> page.
 Most of my technical achievements this sprint was helping the other memebers in my team.
+
+<h2>Sprint 4</h2>
+        <h3> Professional</h3>
+        Most of our meetings and communication were held through our teams chat as one of our memebrs was quite ill during this sprint which meant we didnt have scrum meetings like we 
+        normally do. 
+        My git bash usage has improved exponentially, I feel much more confortable using it now then I did in the beginning, I can make sense of the errors a lot easier. 
+        <h3>Technical</h3>
+        During sprint 3 I hadnt completed anything too technically for myself, and as Im learning most of what we need in web2 programming it
+        was hard to what would be technically chanllenging for myself. I delved more into authentication and how to make our site more
+        secure from people who werent logged in or resgistered. Their were two options for this, using middlware on the routes or checking the 
+        authentication with an if statement as shown below.<br>
+        <img src="https://i.ibb.co/48ksNrT/using-if-statement.png" alt="using-if-statement" border="0">
+        <img src="https://i.ibb.co/jZ2d4Zp/using-middlwareauth.png" alt="using-middlwareauth" border="0">
+        <br>
+        I decided to go with checking authentication on the navigation bar, as it looked a lot better than using middleware as this caused the login form to displayed on every route.
+        I also implement some CRUD (Create Replace Update Delete) because currently our site was just pure data entry. So I suggested the user be able to edit their mistakes, this was don through
+        the edit and update functions in the games and scores controllers. I used a couple of tutorials and my previuos knowledge of implementing it for another assignment.
+        Compiling all the routes under <code> Route::resource('/games','GamesController);</code>and <code>Route::resource('scores','ScoresController);</code>
+        This is great for CRUD and keeping routes tidy. 
 
       </section>
       <a href="https://softenop.github.io/soften-portfolio-19-2-kcharters89/index.html" type="button" class="btn btn-warning">Back</a>
