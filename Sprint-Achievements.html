@@ -132,10 +132,21 @@ Most of my technical achievements this sprint was helping the other memebers in 
         <h2>Sprint 5</h2>
         <h3>Professional</h3>
         <h3>Technical</h3>
-        -authication edit buttons
-        -adding columns for foreign keys 
-        -making relationships in models
-        -some styling using bootstrap cards and bootstrap tables
+        With the email from our client of little last minute changes for this half sprint i managed to get the authentication of the edit buttons
+        working but checking the users foreign key id. So that only the person who had created the game or score could edit and no one else.
+        We hadnt impemented any foreign keys at this statge so i added column migration to add that to our already exisiting migrations for games and scores
+        <code> php artisan make:migration add_foreign_key_column_to_games_table --table=games</code> (and the same but for scores)
+        After adding a foreign key I had to make a relationship in th model between the user and the games.<br>
+        <img src="https://i.ibb.co/JkYp6Qv/model-relationship-with-user.jpg" alt="model-relationship-with-user" border="0"><br>
+        then I used the user id foreign key to add to each creation of a game and score <br>
+        <img src="https://i.ibb.co/NTgbLQt/adding-foreign-key-to-create-function-of-the-user.jpg" alt="adding-foreign-key-to-create-function-of-the-user" border="0"><br>
+        and finally authenticated the buttons so that the user who is logged in can edit their own posts.
+        <img src="https://i.ibb.co/rvQrw46/auth-of-edit-buttons-checking-the-user-id.jpg" alt="auth-of-edit-buttons-checking-the-user-id" border="0"><br>
+        which in the end result looks like this <br>
+        <img src="https://i.ibb.co/Wt5DfrQ/auth-edit-working.jpg" alt="auth-edit-working" border="0"><br>
+        I also did a bit of styling using bootstrap cardlayout for our games page as they had images. and using bootstrap tables instead of regular html tables.
+        
+       
       </section>
       <a href="https://softenop.github.io/soften-portfolio-19-2-kcharters89/index.html" type="button" class="btn btn-warning">Back</a>
     </div>
