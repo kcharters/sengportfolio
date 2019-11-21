@@ -62,58 +62,58 @@
 
 <h3> Professional:</h3>
 During sprint one our group was not the greatest at stand up meetings however we did meet at the same time every week 
-for our two full meetings, it was difficult to organise everyone having the same free time but out communication via teams was alway constant. 
+for our two full meetings, it was difficult to organise everyone having the same free time but our communication via teams was alway constant. 
 
 Because I was the only one to meet the client on the day we first showed them our user stories I became the main point of
  email contact with the client to meet with him.
 
 We also created a group <a href="https://github.com/SoftEnOP/op-stats-raidarea51/wiki">Wiki Page</a> to look back on to remember file 
-locations, common procedures, commands etc
+locations, common procedures and commands. 
 
 <h3> Technical:</h3>
-For sprint one I took the task to create to create the login as I thought it would be a challenge until i realised the it was 
-a simple command `php artisan make:auth` and I followed the <a href="https://laravel.com/docs/5.8/authentication">Laravel Docs Authentication</a> for this.
-During this sprint a team memeber made changes to the "Todo tutorial" to coiencide with our game naming conventions but didnt quite do it
+For sprint one I took the task to create the login as I thought it would be a challenge until i realised the it was 
+        a simple command <code>php artisan make:auth</code> and I followed the <a href="https://laravel.com/docs/5.8/authentication">Laravel Docs Authentication</a> for this.
+During this sprint a team memeber made changes to the "Todo tutorial" to coincide with our game naming conventions but didnt quite do it
 right, which ended up with the site only working for them and not the rest of the group leaving us all confused.
 So i took the initiave, and re-did the <a href="https://morioh.com/p/9b8c8ef67bd5/laravel-5-8-tutorial-from-scratch-for-beginners">tutorial here</a>
-and changed it to our naming conventions and getting it working 
-for everyone. by using ctl+f to find all the todo variables and changing them to our gamesvariable. This really helped me in understanding
+and changed it to our naming conventions to get it working 
+for everyone. By using ctl+f to find all the todo variables and changing them to our games variable. This really helped me in understanding
  what was going on in the back end of the site.
 
 <h2> Sprint 2 </h2>
 <h3> Professional:</h3>
-This sprint I learnt moreabout git usage and adding single files rather than * to add all as i had previously done in Professional practice.
- I also learnt about github and branching so we werent working on the master banch, making pull requests and collaboratin with my team when
-  a merge conflict arised and making meaningful commits <br>
+This sprint I learnt more about git usage and adding single files rather than using * to add all as i had previously done in Professional practice.
+ I also learnt about github and branching so we werent working on the master branch, making pull requests and collaboratin with my team when
+  a merge conflict arised, making meaningful commits <br>
   <img src="https://i.ibb.co/VQn9Gn8/branching.jpg" alt="branching" border="0"><br>
   <img src="https://i.ibb.co/5F1zj1S/meaningful-commits.jpg" alt="meaningful-commits" border="0"><br>
-Communication with the team via team chat working together daily keeping everyone updated on changes or errors and helping each other 
+Communication with the team via team chat and working together daily keeping everyone updated on changes or errors and helping each other 
 especially myself when i needed step by step on how to merge branches.
 
 <h3>Technical </h3>
-Our group was having trouble with the games view working with the database so I took initiave again rather than leaving my team
- members to struggle and looked at our games controller versus the tutorial controller and when through the CRUD storefunction to
+Our group was having trouble with the games view page working with the database so I took initiave again, rather than leaving my team
+ members to struggle, and looked at our games controller versus the tutorial controller and went through the CRUD storefunction to
   make sure what was on our database matched what was with our controller (this was before i learnt about CRUD in my web programming class)
   <img src="https://i.ibb.co/V9SHJFb/todocontroller-compare-with-game-controller.jpg" alt="todocontroller-compare-with-game-controller" border="0">
   <img src="https://i.ibb.co/Jkhz02Z/changin-games-controller-to-work-with-database.png" alt="changin-games-controller-to-work-with-database" border="0">
   <br>
-We had some issues with deployment when one of our pages would work and this is how i learnt that linux is case sensitive, which 
+We had some issues with deployment when one of our pages wouldnt work and would error 404. This is how i learnt that linux is case sensitive, which 
 is what our deployed site is hosted on, versus windows not begin case sensitive when we look at our site locally. 
-I also did the main styling  and use a CC0 (creative commons free use) image as our logo
+I also did the main styling  and use a CC0 (creative commons free use) image as our logo <img src="https://i.ibb.co/jr74Mbx/image.png" alt="image" border="0">
 <h2> Sprint 3</h2>
 <h3> Professional</h3>
-Learning Laravel side by side with software engineering class and web 2 programming helped me help my team. 
+Learning Laravel side by side with software engineering and web 2 programming helped me help my team. 
 One team member was having trouble with creating a search function and was using a tutorial that required downloaded packages, 
-which we figured out meant we would all have to download the same packages and also download them on the deployment site to get working.
- So I made a quick search function with an easier tutorial, that i had origially suggested to the team, and with my knowledge of forms from 
- my web class helped the other memember create a simplier, working search function for the site.
+which we figured out meant we would all have to download the same packages and also download them on the deployment server to get it working.
+ So I made a quick search function with an easier<a href="https://medium.com/justlaravel/search-functionality-in-laravel-a2527282150b" tutorial</a>, that I had origially suggested to the team, and with my knowledge of forms from 
+ my web class helped the other memember create a simplier, working search function for the site that they expanded on.
 
 <h3> Technical</h3>
 Also from learning about eloquent in my web class i changed the view scores to be our actual leaderboard and sorted it
  by score using eloquent, eloquent is similar to making select quiries in sql but with different syntax. 
- Orginally I thought i would have to join tables but seeing as our add scores is basically data entry i managed to sort 
- it and i implemented this in the top ten splash screen on the home page. I had some confusion with this as 
- it didnt seem to be sorting by the higest number until i realised our databse was set score to string and so it 
+ Orginally I thought I would have to join tables but seeing as our add scores is basically data entry and didnt have foreign keys or a relatinship, I managed to sort 
+ it and I implemented this in the top ten splash screen on the home page as well. I had some confusion with this as 
+ it didnt seem to be sorting by the higest number until I realised our databse was setting the score variable to string and so it 
  was sorting alphbetically. I managed to change our table to integer to get the sort numerically using this <a href="https://laravel.com/docs/5.7/migrations#updating-columns">doc</a> page.
 Most of my technical achievements this sprint was helping the other memebers in my team.
 
@@ -123,29 +123,30 @@ Most of my technical achievements this sprint was helping the other memebers in 
         normally do. 
         My git bash usage has improved exponentially, I feel much more confortable using it now then I did in the beginning, I can make sense of the errors a lot easier. 
         <h3>Technical</h3>
-        During sprint 3 I hadnt completed anything too technically for myself, and as Im learning most of what we need in web2 programming it
-        was hard to what would be technically chanllenging for myself. I delved more into authentication and how to make our site more
+        During sprint 3 I hadnt completed anything too technically for myself, and as Im learning most of what we need in web 2 programming it
+        was hard to decide what would be technically chanllenging for myself. I delved more into authentication and how to make our site more
         secure from people who werent logged in or resgistered. Their were two options for this, using middlware on the routes or checking the 
         authentication with an if statement as shown below.<br>
         <img src="https://i.ibb.co/48ksNrT/using-if-statement.png" alt="using-if-statement" border="0">
         <img src="https://i.ibb.co/jZ2d4Zp/using-middlwareauth.png" alt="using-middlwareauth" border="0">
         <br>
         I decided to go with checking authentication on the navigation bar, as it looked a lot better than using middleware as this caused the login form to displayed on every route.
-        I also implement some CRUD (Create Replace Update Delete) because currently our site was just pure data entry. So I suggested the user be able to edit their mistakes, this was done through
-        the edit and update functions in the games and scores controllers. I used a couple of tutorials and my previuos knowledge of implementing it for another assignment.
-        Compiling all the routes under <code> Route::resource('/games','GamesController);</code>and <code>Route::resource('scores','ScoresController);</code>
+        I also implement some CRUD (Create Replace Update Delete) because currently our site was just pure data entry. So I suggested the user being able to edit their mistakes, this was done through
+        the edit and update functions in the games and scores controllers. I used a couple of tutorials and my previuos knowledge of  it for another assignment.
+        Compiling all the routes needed for CRUD under <code> Route::resource('/games','GamesController);</code>and <code>Route::resource('scores','ScoresController);</code>
         This is great for CRUD and keeping routes tidy. 
+        
         <h2>Sprint 5</h2>
         <h3>Professional</h3>
         As this sprint was a half sprint we only managed two scrums. But miscommunication still occured with code being added that wasnt in relation
         to any issues on our kanban board. Continuously learning about the github workflow with code reviews on merges. And still keeping contact with the 
         client for last minute changes or requirements. 
         <h3>Technical</h3>
-        With the email from our client of little last minute changes for this half sprint i managed to get the authentication of the edit buttons
-        working but checking the users foreign key id. So that only the person who had created the game or score could edit and no one else.
-        We hadnt impemented any foreign keys at this statge so i added column migration to add that to our already exisiting migrations for games and scores
+        With the email from our client of little last minute changes for this half sprint I managed to get the authentication of the edit buttons
+        working by checking the users foreign key id. So that only the person who had created the game or score could edit and no one else.
+        We hadnt impemented any foreign keys at this statge so i added column migrations to add that to our already exisiting migrations for games and scores
         <code> php artisan make:migration add_foreign_key_column_to_games_table --table=games</code> (and the same but for scores)
-        After adding a foreign key I had to make a relationship in th model between the user and the games.<br>
+        After adding a foreign key I had to make a relationship in the model between the user and the games.<br>
         <img src="https://i.ibb.co/JkYp6Qv/model-relationship-with-user.jpg" alt="model-relationship-with-user" border="0"><br>
         then I used the user id foreign key to add to each creation of a game and score <br>
         <img src="https://i.ibb.co/NTgbLQt/adding-foreign-key-to-create-function-of-the-user.jpg" alt="adding-foreign-key-to-create-function-of-the-user" border="0"><br>
@@ -153,7 +154,7 @@ Most of my technical achievements this sprint was helping the other memebers in 
         <img src="https://i.ibb.co/rvQrw46/auth-of-edit-buttons-checking-the-user-id.jpg" alt="auth-of-edit-buttons-checking-the-user-id" border="0"><br>
         which in the end result looks like this <br>
         <img src="https://i.ibb.co/Wt5DfrQ/auth-edit-working.jpg" alt="auth-edit-working" border="0"><br>
-        I also did a bit of styling using bootstrap cardlayout for our games page as they had images. and using bootstrap tables instead of regular html tables.
+        I also did a bit of styling using bootstrap cardlayout for our games page as they had images and using bootstrap tables instead of regular html tables.
         
        
       </section>
